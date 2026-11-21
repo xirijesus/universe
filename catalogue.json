@@ -1,0 +1,1471 @@
+{
+ "components": {
+  "azahar": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "af037f8b775198f636b14bcfe63fb401b02246ebfefe1025bb905ce042556960",
+       "size": 103684600,
+       "url": "https://github.com/azahar-emu/azahar/releases/download/2126.2/azahar.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-08T23:12:19Z",
+     "version": "2126.2"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "1ea15020334ee2e8fd16fbb3911fa7eafa8111e311c54dd4387b61b2ea742df6",
+       "size": 103664120,
+       "url": "https://github.com/azahar-emu/azahar/releases/download/2126.1.2/azahar.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-09-20T23:13:07Z",
+     "version": "2126.1.2"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "e445dabc18fe7665867e24a18a78e24e133261a9cc320fae6a4a45bd2e7c4783",
+       "size": 103660024,
+       "url": "https://github.com/azahar-emu/azahar/releases/download/2126.1.1/azahar.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-09-11T22:58:29Z",
+     "version": "2126.1.1"
+    }
+   ],
+   "homepage": "https://github.com/azahar-emu/azahar",
+   "kind": "emulator",
+   "name": "Azahar"
+  },
+  "butler": {
+   "bin": "butler",
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "zip",
+       "sha256": "2335971394ef6596f95ded0833e85ee28755e13761716ef4c91d6b11f69162f5",
+       "size": 10734695,
+       "url": "https://broth.itch.zone/butler/linux-amd64/15.32.0/archive/default"
+      }
+     ],
+     "channel": "stable",
+     "date": "",
+     "version": "15.32.0"
+    }
+   ],
+   "homepage": "https://itch.io/docs/butler/",
+   "kind": "tool",
+   "name": "butler"
+  },
+  "cemu": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "0c20c4aeb800bb13d9bab9474ef45a6f8fcde6402cad9b32ac2a1bbd03186313",
+       "size": 61423960,
+       "url": "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2025-02-06T13:18:18Z",
+     "version": "2.6"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "f226ce31b376200d5e74fb7feff91afbf8ae8da520bdf90aff25fb0d8873342a",
+       "size": 61403480,
+       "url": "https://github.com/cemu-project/Cemu/releases/download/v2.5/Cemu-2.5-x86_64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2024-12-07T13:54:15Z",
+     "version": "2.5"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "92a1f081230809bd0ac30b228f72c6d8c7aa7eaa3e56df4cf8ad54d4c9927097",
+       "size": 61288792,
+       "url": "https://github.com/cemu-project/Cemu/releases/download/v2.4/Cemu-2.4-x86_64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2024-11-13T07:41:29Z",
+     "version": "2.4"
+    }
+   ],
+   "homepage": "https://github.com/cemu-project/Cemu",
+   "kind": "emulator",
+   "name": "Cemu"
+  },
+  "comet": {
+   "bin": "comet",
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "binary",
+       "sha256": "868dd0b510f2c1c63a524b8e0466dd92bb2aecdb697217a690bf9effd04d3a5a",
+       "size": 14660192,
+       "url": "https://github.com/imLinguin/comet/releases/download/v0.4.1/comet-x86_64-unknown-linux-gnu"
+      },
+      {
+       "arch": "aarch64",
+       "format": "binary",
+       "sha256": "33c52a7f4747e4e3340b1de955683679e33d01ba1a4fd2f9d79d7eb4dc229fc8",
+       "size": 12612400,
+       "url": "https://github.com/imLinguin/comet/releases/download/v0.4.1/comet-aarch64-unknown-linux-gnu"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-28T14:09:44Z",
+     "version": "0.4.1"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "binary",
+       "sha256": "4af235a977052a8d9a232a465f4b9208f48e17753555454ba261d152b0daeaf8",
+       "size": 12759152,
+       "url": "https://github.com/imLinguin/comet/releases/download/v0.4.0/comet-x86_64-unknown-linux-gnu"
+      },
+      {
+       "arch": "aarch64",
+       "format": "binary",
+       "sha256": "5adf94c68889dae1aac75e8164d2f884174380a5dfbc9c0c504ba7433920229f",
+       "size": 11497048,
+       "url": "https://github.com/imLinguin/comet/releases/download/v0.4.0/comet-aarch64-unknown-linux-gnu"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-26T12:28:20Z",
+     "version": "0.4.0"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "binary",
+       "sha256": "2d6694d544fd3155d90d540e70bc1be767a6b9fdda130275f2b79616ff14e843",
+       "size": 12881904,
+       "url": "https://github.com/imLinguin/comet/releases/download/v0.3.2/comet-x86_64-unknown-linux-gnu"
+      },
+      {
+       "arch": "aarch64",
+       "format": "binary",
+       "sha256": "c8cd850a03ba66c10bf620eee2735946ddf0b5969cd38cae02c6bede6d15c5b8",
+       "size": 11365728,
+       "url": "https://github.com/imLinguin/comet/releases/download/v0.3.2/comet-aarch64-unknown-linux-gnu"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-01-04T18:07:16Z",
+     "version": "0.3.2"
+    }
+   ],
+   "homepage": "https://github.com/imLinguin/comet",
+   "kind": "tool",
+   "name": "comet"
+  },
+  "dosbox": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "program": "dosbox",
+       "sha256": "3c7c925e28a5c88ae9f9f1a315ad07d91176b135fbe5f6f240eeee148ed176b0",
+       "size": 29267356,
+       "url": "https://github.com/dosbox-staging/dosbox-staging/releases/download/v0.83.1/dosbox-staging-linux-x86_64-v0.83.1.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-11-14T13:39:26Z",
+     "version": "0.83.1"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "program": "dosbox",
+       "sha256": "d3a94f7f1c3e68a47ec88d61145506c7904452adb0c9c5928cb8cfe2331d6c5c",
+       "size": 29377664,
+       "url": "https://github.com/dosbox-staging/dosbox-staging/releases/download/v0.83.0/dosbox-staging-linux-x86_64-v0.83.0.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-08-27T08:30:47Z",
+     "version": "0.83.0"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "program": "dosbox",
+       "sha256": "bc229df72ea103b7865cdca67324772dbffa8e58866477e69a79638b723a0442",
+       "size": 4629660,
+       "url": "https://github.com/dosbox-staging/dosbox-staging/releases/download/v0.82.2/dosbox-staging-linux-x86_64-v0.82.2.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2025-06-17T09:11:23Z",
+     "version": "0.82.2"
+    }
+   ],
+   "homepage": "https://github.com/dosbox-staging/dosbox-staging",
+   "kind": "emulator",
+   "name": "DOSBox Staging"
+  },
+  "duckstation": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "6a1be1dba27ad54f5278c4268dca53ee0cc99c94394be2bafc99138c54263314",
+       "size": 95629600,
+       "url": "https://github.com/stenzek/duckstation/releases/download/v0.1-12640/DuckStation-x64.AppImage"
+      }
+     ],
+     "channel": "rolling",
+     "date": "2026-11-19T02:54:55Z",
+     "version": "0.1-12640"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "4d5c3dcfd9937dc9e77b8fcd5f879b8ec0c69551d5ed13462592073608542fca",
+       "size": 94519584,
+       "url": "https://github.com/stenzek/duckstation/releases/download/v0.1-12442/DuckStation-x64.AppImage"
+      }
+     ],
+     "channel": "rolling",
+     "date": "2026-10-25T02:59:23Z",
+     "version": "0.1-12442"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "c5e6f045f6a242082fcafa9f02d56ad895e233b942728788d232ad0c0c765c24",
+       "size": 93323552,
+       "url": "https://github.com/stenzek/duckstation/releases/download/v0.1-12083/DuckStation-x64.AppImage"
+      }
+     ],
+     "channel": "rolling",
+     "date": "2026-10-13T05:31:37Z",
+     "version": "0.1-12083"
+    }
+   ],
+   "homepage": "https://github.com/stenzek/duckstation",
+   "kind": "emulator",
+   "name": "DuckStation"
+  },
+  "eden": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "7a28bf988b0648831989722bdbaa90ab31371b403808199813e0ea7c8b25ba6d",
+       "size": 69276651,
+       "url": "https://stable.eden-emu.dev/v0.2.1/Eden-Linux-v0.2.1-amd64-clang-pgo.AppImage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "b64f926cbf74fd870a39b144971084323d895d51919b91e906328e7f81bea087",
+       "size": 63437527,
+       "url": "https://stable.eden-emu.dev/v0.2.1/Eden-Linux-v0.2.1-aarch64-clang-pgo.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-06-01T19:57:41+02:00",
+     "version": "0.2.1"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "68c8b5ace9772b0016a73c77089968b84708dace06ae5c9a472e21fab030465f",
+       "size": 68093211,
+       "url": "https://stable.eden-emu.dev/v0.2.0/Eden-Linux-v0.2.0-amd64-clang-pgo.AppImage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "43855be376f2f42d13f61c3bfc5b2126ddd32e49f78b5c03bea7758cefbbbe04",
+       "size": 62772361,
+       "url": "https://stable.eden-emu.dev/v0.2.0/Eden-Linux-v0.2.0-aarch64-clang-pgo.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-05-13T19:14:59+02:00",
+     "version": "0.2.0"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "83bc75d3333fe79cf66af7444dca51279e8ed6837c72775bce5f54022389645f",
+       "size": 66235614,
+       "url": "https://stable.eden-emu.dev/v0.1.1/Eden-Linux-v0.1.1-amd64-clang-pgo.AppImage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "ea2539455e60a20c692541705a2d29db2e2bf0846f01cbb14b07290885ac1ba1",
+       "size": 61626397,
+       "url": "https://stable.eden-emu.dev/v0.1.1/Eden-Linux-v0.1.1-aarch64-clang-pgo.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-01-30T19:27:05+01:00",
+     "version": "0.1.1"
+    }
+   ],
+   "homepage": "https://git.eden-emu.dev/eden-emu/eden",
+   "kind": "emulator",
+   "name": "Eden",
+   "notice": "Eden emulates the Nintendo Switch, and Nintendo named it in a DMCA notice in February 2026. Universe ships no keys or firmware: you supply your own."
+  },
+  "flycast": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "5b9f8a636a6acb8446bc78fe96650d8cb8233ac9f8ce69665dab3f39a1cbaae1",
+       "size": 20396536,
+       "url": "https://github.com/flyinghead/flycast/releases/download/v2.7/flycast-x86_64-2.7.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-08-19T11:47:09Z",
+     "version": "2.7"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "ba9bafb4527bbb7247c6b460dbf9ee39aba24c6cb69c22e9b021f7886eb40b1f",
+       "size": 19790328,
+       "url": "https://github.com/flyinghead/flycast/releases/download/v2.6/flycast-x86_64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-01-10T16:28:18Z",
+     "version": "2.6"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "ec14b9b54a939c751d8b1660a2d8266bda8b7befc3d7b93ef83340d0bebac5a2",
+       "size": 20108480,
+       "url": "https://github.com/flyinghead/flycast/releases/download/v2.5/flycast-x86_64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2025-05-07T09:36:28Z",
+     "version": "2.5"
+    }
+   ],
+   "homepage": "https://github.com/flyinghead/flycast",
+   "kind": "emulator",
+   "name": "Flycast"
+  },
+  "ge-proton": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "sha256": "0595159e417c3dbbfb7cc3ae0d3ed15a617cc607aa23ef756ea79029d7af5d70",
+       "size": 566859228,
+       "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton11-12/GE-Proton11-12-x86_64.tar.gz"
+      },
+      {
+       "arch": "aarch64",
+       "format": "tar.gz",
+       "sha256": "cbf85e13a6a500cb6747881620b061faccf3c93e05e2102c6b5e992d5aa44c78",
+       "size": 650286473,
+       "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton11-12/GE-Proton11-12-aarch64.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-11-03T07:19:38Z",
+     "version": "GE-Proton11-12"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "sha256": "aa85986cada5709aa8bbfa8add7f3bfb925cbe15710c98995898d308ff2ca3c1",
+       "size": 564789552,
+       "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton11-11/GE-Proton11-11-x86_64.tar.gz"
+      },
+      {
+       "arch": "aarch64",
+       "format": "tar.gz",
+       "sha256": "c70eb3cc1c48a4cf1719d643c86fc069060fc6a1fecb490ec03295f2f7541ad1",
+       "size": 648071663,
+       "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton11-11/GE-Proton11-11-aarch64.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-19T18:20:53Z",
+     "version": "GE-Proton11-11"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "sha256": "3c26ee96735ce9f42de018db4f82ab33e275f19150d6cea25ea7937b7f2530dd",
+       "size": 566144788,
+       "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton11-10/GE-Proton11-10-x86_64.tar.gz"
+      },
+      {
+       "arch": "aarch64",
+       "format": "tar.gz",
+       "sha256": "0d27025f4903299e31251d83eaa6981b8f0a96218108a735a43651f047db0dcc",
+       "size": 648016707,
+       "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton11-10/GE-Proton11-10-aarch64.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-19T06:21:57Z",
+     "version": "GE-Proton11-10"
+    }
+   ],
+   "family": "proton-ge",
+   "homepage": "https://github.com/GloriousEggroll/proton-ge-custom",
+   "kind": "proton",
+   "name": "GE-Proton"
+  },
+  "gogdl": {
+   "bin": "gogdl",
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "binary",
+       "sha256": "2aa2b59c83d3bfbe7b60ead91c6297b263b5d1e6c233a04b7409bafe26738f02",
+       "size": 983218,
+       "url": "https://github.com/Heroic-Games-Launcher/heroic-gogdl/releases/download/v1.4.0/gogdl_linux_x86_64"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-28T20:58:50Z",
+     "version": "1.4.0"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "binary",
+       "sha256": "7a6f22da4943bdb4c00baf6250fcee7085c1104ba2ac401479e70ec96e722b59",
+       "size": 1621617,
+       "url": "https://github.com/Heroic-Games-Launcher/heroic-gogdl/releases/download/v1.3.1/gogdl_linux_x86_64"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-16T12:46:21Z",
+     "version": "1.3.1"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "binary",
+       "sha256": "cba013d42767c808237c437335ab1d56f58405d07e8f37b3324d264ea5c49655",
+       "size": 1563756,
+       "url": "https://github.com/Heroic-Games-Launcher/heroic-gogdl/releases/download/v1.3.0/gogdl_linux_x86_64"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-08-07T14:25:12Z",
+     "version": "1.3.0"
+    }
+   ],
+   "homepage": "https://github.com/Heroic-Games-Launcher/heroic-gogdl",
+   "kind": "tool",
+   "name": "heroic-gogdl"
+  },
+  "kytyps5": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "program": "kyty_emulator",
+       "sha256": "18054603d6a080cb2a60cc1dfee5d0512c4aebc46f947d1f9a2185dee247a6c8",
+       "size": 42271988,
+       "url": "https://github.com/KytyPS5/KytyPS5/releases/download/KytyPS5-2026-11-21-39936ff/KytyPS5-2026-11-21-39936ff-Linux-x86_64.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-11-21T11:22:32Z",
+     "version": "2026-11-21-39936ff"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "program": "kyty_emulator",
+       "sha256": "f9a32fdb21b41680b2d01569ee8db697fa7387643166677c21708000336b5bb2",
+       "size": 42271070,
+       "url": "https://github.com/KytyPS5/KytyPS5/releases/download/KytyPS5-2026-11-21-727ccd1/KytyPS5-2026-11-21-727ccd1-Linux-x86_64.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-11-21T09:54:00Z",
+     "version": "2026-11-21-727ccd1"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "program": "kyty_emulator",
+       "sha256": "e5ec066acfd9d0cb4dbd9b70a61466fce3dca0c072babedcc669dc09a2f728c3",
+       "size": 42272703,
+       "url": "https://github.com/KytyPS5/KytyPS5/releases/download/KytyPS5-2026-11-20-a21fd80/KytyPS5-2026-11-20-a21fd80-Linux-x86_64.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-11-20T21:40:13Z",
+     "version": "2026-11-20-a21fd80"
+    }
+   ],
+   "homepage": "https://github.com/KytyPS5/KytyPS5",
+   "kind": "emulator",
+   "name": "KytyPS5"
+  },
+  "legendary": {
+   "bin": "legendary",
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "binary",
+       "sha256": "dbed33bbe96031e65858233e4badf0a1d401bb6cb0cc995d1237cf3a0c826a45",
+       "size": 3093622,
+       "url": "https://github.com/legendary-gl/legendary/releases/download/0.21.1/legendary_linux_x64"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-09-08T21:07:05Z",
+     "version": "0.21.1"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "binary",
+       "sha256": "c83d1595a9e2cbae4e66b69ecaa1f8649da99b617a72f93312d342e6a5a799c7",
+       "size": 14022624,
+       "url": "https://github.com/legendary-gl/legendary/releases/download/0.21.0/legendary_linux_x64"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-08-04T17:29:09Z",
+     "version": "0.21.0"
+    }
+   ],
+   "homepage": "https://github.com/legendary-gl/legendary",
+   "kind": "tool",
+   "name": "legendary-gl"
+  },
+  "ludusavi": {
+   "bin": "ludusavi",
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "member": "ludusavi",
+       "sha256": "7322ff45d41eae7ae064a80d8c9ecccc5b8fb6fc090a603a66369cd4b054068d",
+       "size": 14389479,
+       "url": "https://github.com/mtkennerly/ludusavi/releases/download/v0.31.0/ludusavi-v0.31.0-linux.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-04-04T20:56:28Z",
+     "version": "0.31.0"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "member": "ludusavi",
+       "sha256": "bc9437da7f80b67f9d1907b5bff549885a81097cce5e7b83bcedc5faf7986083",
+       "size": 11974368,
+       "url": "https://github.com/mtkennerly/ludusavi/releases/download/v0.30.0/ludusavi-v0.30.0-linux.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2025-11-10T05:09:30Z",
+     "version": "0.30.0"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "member": "ludusavi",
+       "sha256": "80b52aeb4124b769cfddb23d3f7da2070b68434cfd4006fc49fba7e615b5bf65",
+       "size": 12013805,
+       "url": "https://github.com/mtkennerly/ludusavi/releases/download/v0.29.1/ludusavi-v0.29.1-linux.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2025-04-18T01:26:30Z",
+     "version": "0.29.1"
+    }
+   ],
+   "homepage": "https://github.com/mtkennerly/ludusavi",
+   "kind": "tool",
+   "name": "ludusavi"
+  },
+  "melonds": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "appimage": "melonDS-x86_64.AppImage",
+       "arch": "x86_64",
+       "format": "zip",
+       "sha256": "bf377420a2e95f2cd2cdda17d5372b51c2534f858b038db9ec6d129554875124",
+       "size": 34289284,
+       "url": "https://github.com/melonDS-emu/melonDS/releases/download/1.1/melonDS-1.1-appimage-x86_64.zip"
+      },
+      {
+       "appimage": "melonDS-aarch64.AppImage",
+       "arch": "aarch64",
+       "format": "zip",
+       "sha256": "c537ae018d6dcedfe9da0317a1d5c0163e69201e23abfa163fa2a63e437ace09",
+       "size": 33391635,
+       "url": "https://github.com/melonDS-emu/melonDS/releases/download/1.1/melonDS-1.1-appimage-aarch64.zip"
+      }
+     ],
+     "channel": "stable",
+     "date": "2025-11-18T10:14:11Z",
+     "version": "1.1"
+    },
+    {
+     "assets": [
+      {
+       "appimage": "melonDS-x86_64.AppImage",
+       "arch": "x86_64",
+       "format": "zip",
+       "sha256": "a26557d3aca8695d1cf93108ce12be7f3a46943e8c1b5e645f81f2585132ce6a",
+       "size": 34072717,
+       "url": "https://github.com/melonDS-emu/melonDS/releases/download/1.0/melonDS-appimage-x86_64.zip"
+      },
+      {
+       "appimage": "melonDS-aarch64.AppImage",
+       "arch": "aarch64",
+       "format": "zip",
+       "sha256": "e39abe0739c320ca4459ef9ae312580436efaa7aff1146602eb8f1641314fe96",
+       "size": 33181296,
+       "url": "https://github.com/melonDS-emu/melonDS/releases/download/1.0/melonDS-appimage-aarch64.zip"
+      }
+     ],
+     "channel": "stable",
+     "date": "2025-07-08T22:50:21Z",
+     "version": "1.0"
+    },
+    {
+     "assets": [
+      {
+       "appimage": "melonDS-x86_64.AppImage",
+       "arch": "x86_64",
+       "format": "zip",
+       "sha256": "b4b57e79ad317f8590adeff5bf73233d312886e6c726931e653033c743eb8371",
+       "size": 36706612,
+       "url": "https://github.com/melonDS-emu/melonDS/releases/download/1.0rc/melonDS-appimage-x86_64.zip"
+      }
+     ],
+     "channel": "stable",
+     "date": "2024-11-21T00:38:03Z",
+     "version": "1.0rc"
+    }
+   ],
+   "homepage": "https://github.com/melonDS-emu/melonDS",
+   "kind": "emulator",
+   "name": "melonDS"
+  },
+  "mgba": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "fdf0a5c1588e1606c38315735cf48a9f9dca3573f32a3947ebc956f8297e85cd",
+       "size": 25208000,
+       "url": "https://github.com/mgba-emu/mgba/releases/download/0.10.5/mGBA-0.10.5-appimage-x64.appimage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "de3cbf437be1d5324c3853baba0dafea3311322a23829355d583308947e058e8",
+       "size": 24576384,
+       "url": "https://github.com/mgba-emu/mgba/releases/download/0.10.5/mGBA-0.10.5-appimage-arm64.appimage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2025-03-09T03:59:39Z",
+     "version": "0.10.5"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "ac38a10dfb80f03ab1bc27ba51e6af0b3a63794f9f4aa51b167c93342d9d7352",
+       "size": 25134272,
+       "url": "https://github.com/mgba-emu/mgba/releases/download/0.10.4/mGBA-0.10.4-appimage-x64.appimage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "8faaafc0263ef425a806850764bce59eead794cae522855de4f554010b2b31b9",
+       "size": 24527232,
+       "url": "https://github.com/mgba-emu/mgba/releases/download/0.10.4/mGBA-0.10.4-appimage-arm64.appimage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2024-12-08T05:18:53Z",
+     "version": "0.10.4"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "f52f4b01962ebea0651d4b5f20ecab766e7334e41351dd20a25896c3220a8b86",
+       "size": 24278208,
+       "url": "https://github.com/mgba-emu/mgba/releases/download/0.10.3/mGBA-0.10.3-appimage-x64.appimage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2024-01-08T04:01:37Z",
+     "version": "0.10.3"
+    }
+   ],
+   "homepage": "https://github.com/mgba-emu/mgba",
+   "kind": "emulator",
+   "name": "mGBA"
+  },
+  "pcsx2": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "0c46bb6a88aa2782b10853a7b07cf3387ba99cbef2b966372cd2315b8571abea",
+       "size": 60119544,
+       "url": "https://github.com/PCSX2/pcsx2/releases/download/v2.8.2/pcsx2-v2.8.2-linux-appimage-x64-Qt.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-09-04T23:04:48Z",
+     "version": "2.8.2"
+    }
+   ],
+   "homepage": "https://github.com/PCSX2/pcsx2",
+   "kind": "emulator",
+   "name": "PCSX2"
+  },
+  "ppsspp": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "661c098e6b7f7610171a57b7c533ce8bba6f2312b71e76d61e850461973eba21",
+       "size": 50689748,
+       "url": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-v1.20.4-anylinux-x86_64.AppImage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "18c1d515fd99b0b10ca5fa8cbab192f6d4c9d8a10381e16f5de8fb8f9d39bbe1",
+       "size": 48581283,
+       "url": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-v1.20.4-anylinux-aarch64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-05-16T12:35:08Z",
+     "version": "1.20.4"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "f6c7c399adfad19476b0fd20216132046b84242c6679b6822d10d124bb1c5366",
+       "size": 54369507,
+       "url": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.3/PPSSPP-v1.20.3-anylinux-x86_64.AppImage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "3fc708a6137a77fe16c38e1d4fc5870bd0c37dfab7cf0f4585cea0d80e190160",
+       "size": 52557981,
+       "url": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.3/PPSSPP-v1.20.3-anylinux-aarch64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-03-15T17:52:47Z",
+     "version": "1.20.3"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "cdf9cd3484358034bdb8a3a1fdaee203c1c3be4268df7d1e8a27ce2201f09173",
+       "size": 54374730,
+       "url": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.2/PPSSPP-v1.20.2-anylinux-x86_64.AppImage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "3bf9e41944dec01543a10287e0709874e5cfd76ee01b9aaffbde1554e1de4418",
+       "size": 52527338,
+       "url": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.2/PPSSPP-v1.20.2-anylinux-aarch64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-03-10T13:35:52Z",
+     "version": "1.20.2"
+    }
+   ],
+   "homepage": "https://github.com/hrydgard/ppsspp",
+   "kind": "emulator",
+   "name": "PPSSPP"
+  },
+  "proton-cachyos": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "35e16eab636724e3ed7aa8e2dbc33eb8e102e0c63bbc28b5a39af544c75d5bd3",
+       "size": 347335620,
+       "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20261015-slr/proton-cachyos-11.0-20261015-slr-x86_64.tar.xz"
+      },
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "4f125bd7d2c724dc7d2d0553ca42f18c67022a6006e8629fe7f78d160a9ebdfb",
+       "size": 341465288,
+       "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20261015-slr/proton-cachyos-11.0-20261015-slr-x86_64_v3.tar.xz",
+       "variant": "x86_64_v3"
+      },
+      {
+       "arch": "aarch64",
+       "format": "tar.xz",
+       "sha256": "c2849f62026a494bf6a43a36b35a63b3b796d480d141eea125d117b40f0f4107",
+       "size": 367630532,
+       "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20261015-slr/proton-cachyos-11.0-20261015-slr-arm64.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-20T21:21:40Z",
+     "version": "proton-cachyos-11.0-20261015-slr"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "2bfb50c106065a6776236f35d481d32758c65210380d2ab45955dd81ff283e75",
+       "size": 347254516,
+       "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20261014-slr/proton-cachyos-11.0-20261014-slr-x86_64.tar.xz"
+      },
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "7bedcb21e14ec79fe9f26c57a52e6f72acc27086c84c64edc0307b3d0a14447a",
+       "size": 347330460,
+       "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20261014-slr/proton-cachyos-11.0-20261014-slr-x86_64_v3.tar.xz",
+       "variant": "x86_64_v3"
+      },
+      {
+       "arch": "aarch64",
+       "format": "tar.xz",
+       "sha256": "7d8b0acd3eddd7057782a634f0a3eba44773075c0d757beafe136bcecf541e10",
+       "size": 357219668,
+       "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20261014-slr/proton-cachyos-11.0-20261014-slr-arm64.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-17T22:48:11Z",
+     "version": "proton-cachyos-11.0-20261014-slr"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "096bfe73b506d6565b04ecc45214197a4091818f16ed91f5324b4d2082d0a263",
+       "size": 346993320,
+       "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20261005-slr/proton-cachyos-11.0-20261005-slr-x86_64.tar.xz"
+      },
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "ba52a4f31a060ffca2b8e05fc00e51bc39e4c1501928eb5a9218b0fa07bfc8c7",
+       "size": 347026136,
+       "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20261005-slr/proton-cachyos-11.0-20261005-slr-x86_64_v3.tar.xz",
+       "variant": "x86_64_v3"
+      },
+      {
+       "arch": "aarch64",
+       "format": "tar.xz",
+       "sha256": "e59b646e73de4af21ff2f6c795b28e7b6c889214b3c6daf8e65a56634cd06c37",
+       "size": 356312716,
+       "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20261005-slr/proton-cachyos-11.0-20261005-slr-arm64.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-04T21:30:56Z",
+     "version": "proton-cachyos-11.0-20261005-slr"
+    }
+   ],
+   "family": "proton-cachyos",
+   "homepage": "https://github.com/CachyOS/proton-cachyos",
+   "kind": "proton",
+   "name": "Proton-CachyOS"
+  },
+  "proton-em": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "5bfd81ceb423b365b547803d434fd5157defeae51160bbf6657265bc4340586d",
+       "size": 343702836,
+       "url": "https://github.com/BananaWorks07/Proton/releases/download/EM-10.0-37-HDR/proton-EM-10.0-37-HDR.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-04-11T18:58:28Z",
+     "version": "proton-EM-10.0-37-HDR"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "c9c7899501d5b26683e73ec4258a0d969865f95711266d51a0e7ead0c2c187c5",
+       "size": 396350308,
+       "url": "https://github.com/BananaWorks07/Proton/releases/download/EM-10.0-36-HDRTEST/proton-EM-10.0-36-HDRTEST.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-03-23T17:32:26Z",
+     "version": "proton-EM-10.0-36-HDRTEST"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "d96805e71fb7e0f91588755860bd74265d111b27bd40c5e1acd35730179546ba",
+       "size": 396004668,
+       "url": "https://github.com/BananaWorks07/Proton/releases/download/EM-10.0-34/proton-EM-10.0-34.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-03-06T02:50:27Z",
+     "version": "proton-EM-10.0-34"
+    }
+   ],
+   "family": "proton-em",
+   "homepage": "https://github.com/Etaash-mathamsetty/Proton",
+   "kind": "proton",
+   "name": "Proton-EM"
+  },
+  "rpcs3": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "3f8df5a2a24216ccc22053f4dd01588378caf7f4ef418169e60083e73bb316ec",
+       "size": 83259635,
+       "url": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-7ef1121871efc4d43ab03d8a44b2f1a596d7407f/rpcs3-v0.0.43-20643-7ef11218_linux64.AppImage"
+      }
+     ],
+     "channel": "rolling",
+     "date": "2026-11-21T12:52:50Z",
+     "version": "0.0.43-20643-7ef11218"
+    }
+   ],
+   "homepage": "https://github.com/RPCS3/rpcs3-binaries-linux",
+   "kind": "emulator",
+   "name": "RPCS3"
+  },
+  "shadps4": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "appimage": "Shadps4-sdl.AppImage",
+       "arch": "x86_64",
+       "format": "zip",
+       "sha256": "7c41c58254461d742b5edf564e23795697b63e9e46de11d0e1ed67bd2cbaae68",
+       "size": 33362189,
+       "url": "https://github.com/shadps4-emu/shadPS4/releases/download/v.0.21.0/shadps4-linux-sdl-0.21.0.zip"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-30T13:38:45Z",
+     "version": "0.21.0"
+    },
+    {
+     "assets": [
+      {
+       "appimage": "Shadps4-sdl.AppImage",
+       "arch": "x86_64",
+       "format": "zip",
+       "sha256": "be25d0324cd7b74068d32cdb66fa1b7b1e7bb499b062be51c7006d27d41d4255",
+       "size": 33229758,
+       "url": "https://github.com/shadps4-emu/shadPS4/releases/download/v.0.20.0/shadps4-linux-sdl-0.20.0.zip"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-14T14:51:07Z",
+     "version": "0.20.0"
+    },
+    {
+     "assets": [
+      {
+       "appimage": "Shadps4-sdl.AppImage",
+       "arch": "x86_64",
+       "format": "zip",
+       "sha256": "a6e3b83fd6c9ea7b29c37e77e1aa687802d4ecd98c2ea794ca9e1d97b24a0cf9",
+       "size": 32964443,
+       "url": "https://github.com/shadps4-emu/shadPS4/releases/download/v.0.19.0/shadps4-linux-sdl-0.19.0.zip"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-02T14:03:45Z",
+     "version": "0.19.0"
+    }
+   ],
+   "homepage": "https://github.com/shadps4-emu/shadPS4",
+   "kind": "emulator",
+   "name": "shadPS4"
+  },
+  "sharpemu": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "program": "SharpEmu",
+       "sha256": "38d7507a57e891a5763e23fc68c72172d2395931f8f64f59fc522ed4ed3d761e",
+       "size": 66875306,
+       "url": "https://github.com/sharpemu/sharpemu/releases/download/v0.0.7-pulse/sharpemu-0.0.7-pulse-linux-x64.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-11-01T00:13:28Z",
+     "version": "0.0.7-pulse"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "program": "SharpEmu",
+       "sha256": "dc7edfaa983bb40c6f4022faa2ca2eb4c6f831f8b297f10d2e3c132099137f57",
+       "size": 66392090,
+       "url": "https://github.com/sharpemu/sharpemu/releases/download/v0.0.6-mono/sharpemu-0.0.6-mono-linux-x64.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-18T23:16:53Z",
+     "version": "0.0.6-mono"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "program": "SharpEmu",
+       "sha256": "0e238c8377119b67047042f1ff2f3e4c94960feaedf49a066467a72756e134f0",
+       "size": 61956575,
+       "url": "https://github.com/sharpemu/sharpemu/releases/download/v0.0.5-nexus-release.2/sharpemu-0.0.5-nexus-release.2-linux-x64.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-08T22:58:53Z",
+     "version": "0.0.5-nexus-release.2"
+    }
+   ],
+   "homepage": "https://github.com/sharpemu/sharpemu",
+   "kind": "emulator",
+   "name": "SharpEmu"
+  },
+  "snes9x": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "21a3d120dac7525a9effac3dbec82bd809dd91684bd46451c010480614427c39",
+       "size": 16721088,
+       "url": "https://github.com/snes9xgit/snes9x/releases/download/1.63/Snes9x-1.63-x86_64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2024-07-09T20:09:50Z",
+     "version": "1.63"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "92b30f9ee3748e3499d51c5e81f5cda1b65d0525a9be8236e9f415bfcdeafaa1",
+       "size": 15725760,
+       "url": "https://github.com/snes9xgit/snes9x/releases/download/1.62.3/Snes9x-1.62.3-x86_64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2023-03-30T16:59:53Z",
+     "version": "1.62.3"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "d4107d60f404d0b4abb80fa1042434d90bfc91a7ef124fe8eb19a6936ce4b585",
+       "size": 40936640,
+       "url": "https://github.com/snes9xgit/snes9x/releases/download/1.62.2/Snes9x-1.62.2-x86_64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2023-03-27T22:38:43Z",
+     "version": "1.62.2"
+    }
+   ],
+   "homepage": "https://github.com/snes9xgit/snes9x",
+   "kind": "emulator",
+   "name": "Snes9x"
+  },
+  "umu-proton": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "sha256": "ba50374a2c0a6898074e1481f51802e2cfb3b617d1a9c40fe8a56dfc88da690e",
+       "size": 592003589,
+       "url": "https://github.com/Open-Wine-Components/umu-proton/releases/download/UMU-Proton-11.0-2e/UMU-Proton-11.0-2e-aarch64.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-11-18T20:07:04Z",
+     "version": "UMU-Proton-11.0-2e"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "sha256": "62e99e029a18fa313e6fa63d42390918101730a940e3491c54d9d58cab887c69",
+       "size": 491237448,
+       "url": "https://github.com/Open-Wine-Components/umu-proton/releases/download/UMU-Proton-10.0-4/UMU-Proton-10.0-4.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-03-30T07:34:52Z",
+     "version": "UMU-Proton-10.0-4"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.gz",
+       "sha256": "d53617d3bdd894f4d5c8fd43e827fffbbcdbb49bf473d7fb3be2618dd471ebf3",
+       "size": 443481943,
+       "url": "https://github.com/Open-Wine-Components/umu-proton/releases/download/UMU-Proton-9.0-4e/UMU-Proton-9.0-4e.tar.gz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2025-05-04T02:21:29Z",
+     "version": "UMU-Proton-9.0-4e"
+    }
+   ],
+   "family": "umu-proton",
+   "homepage": "https://github.com/Open-Wine-Components/umu-proton",
+   "kind": "proton",
+   "name": "UMU-Proton"
+  },
+  "umu-run": {
+   "bin": "umu-run",
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "any",
+       "format": "tar",
+       "member": "umu/umu-run",
+       "sha256": "eb590691841f7fad3fc3ad8fd5db4ccb87849fe7948e62b28ece7a4ee48cc851",
+       "size": 430080,
+       "url": "https://github.com/Open-Wine-Components/umu-launcher/releases/download/1.4.4/umu-launcher-1.4.4-zipapp.tar"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-07-25T00:25:27Z",
+     "version": "1.4.4"
+    },
+    {
+     "assets": [
+      {
+       "arch": "any",
+       "format": "tar",
+       "member": "umu/umu-run",
+       "sha256": "3f8fdc033f547afdb3408ea48ad07194769405148dcfa2b2f945b7fb368a33bb",
+       "size": 430080,
+       "url": "https://github.com/Open-Wine-Components/umu-launcher/releases/download/1.4.3/umu-launcher-1.4.3-zipapp.tar"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-07-24T21:40:26Z",
+     "version": "1.4.3"
+    },
+    {
+     "assets": [
+      {
+       "arch": "any",
+       "format": "tar",
+       "member": "umu/umu-run",
+       "sha256": "97b6ff2981912a6b9cd223ec4fb5c4e0a819e5c166811e0f82ae60fad0801c21",
+       "size": 430080,
+       "url": "https://github.com/Open-Wine-Components/umu-launcher/releases/download/1.4.1/umu-launcher-1.4.1-zipapp.tar"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-07-06T08:41:06Z",
+     "version": "1.4.1"
+    }
+   ],
+   "homepage": "https://github.com/Open-Wine-Components/umu-launcher",
+   "kind": "tool",
+   "name": "umu-launcher"
+  },
+  "vita3k": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "4cc506dddf8a4e41c704668db3040c512d85ce075bfa4d25088a8f1ae52a06aa",
+       "size": 89890579,
+       "url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/Vita3K-x86_64.AppImage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "7a07e0f8e5144fc9ee49e81677aefd73eff4816db2fdca646c431a15b5435bb8",
+       "size": 89807003,
+       "url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/Vita3K-aarch64.AppImage"
+      }
+     ],
+     "channel": "rolling",
+     "date": "2026-11-21T08:49:20Z",
+     "version": "2026.11.21"
+    }
+   ],
+   "homepage": "https://github.com/Vita3K/Vita3K",
+   "kind": "emulator",
+   "name": "Vita3K"
+  },
+  "wine": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "eafe530ccdc188ffb00ee8dae962f16b29ff0602953b73b23c9ad3394286381a",
+       "size": 100119012,
+       "url": "https://github.com/Kron4ek/Wine-Builds/releases/download/11.22/wine-11.22-staging-amd64-wow64.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-11-14T15:25:52Z",
+     "version": "11.22"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "a70a9691c42e35f32bab8a8a2deb8f0321aa3081b393c73575727ca76fa503ab",
+       "size": 99958200,
+       "url": "https://github.com/Kron4ek/Wine-Builds/releases/download/11.21/wine-11.21-staging-amd64-wow64.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-31T19:40:55Z",
+     "version": "11.21"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "tar.xz",
+       "sha256": "fad302e59925777bac89e3e4fc3e55ad396663d031c62718d0b029dd1e0fa823",
+       "size": 101599560,
+       "url": "https://github.com/Kron4ek/Wine-Builds/releases/download/11.20/wine-11.20-staging-amd64-wow64.tar.xz"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-18T14:23:50Z",
+     "version": "11.20"
+    }
+   ],
+   "homepage": "https://github.com/Kron4ek/Wine-Builds",
+   "kind": "wine",
+   "name": "Wine"
+  },
+  "xemu": {
+   "builds": [
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "220282aacf09b30b35c55ba900a774fb6940c70deca1408bc70a4c9cc67c322f",
+       "size": 17971704,
+       "url": "https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-x86_64.AppImage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "5f132b3a97c365bf22e8dc286954586ee0cf2202d63958dfcebc8fe9d742ecd4",
+       "size": 16706056,
+       "url": "https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-aarch64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-21T21:43:18Z",
+     "version": "0.8.139"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "c921b43d615020adfa9fe05bc02d7c2c56bd1f12e0152af3d332bbe9bd864884",
+       "size": 17975800,
+       "url": "https://github.com/xemu-project/xemu/releases/download/v0.8.138/xemu-0.8.138-x86_64.AppImage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "a0d4687975576386ee4517f63b3c8f4608d68425cb5817c79f572b48871ec158",
+       "size": 16706056,
+       "url": "https://github.com/xemu-project/xemu/releases/download/v0.8.138/xemu-0.8.138-aarch64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-20T08:53:09Z",
+     "version": "0.8.138"
+    },
+    {
+     "assets": [
+      {
+       "arch": "x86_64",
+       "format": "appimage",
+       "sha256": "47752e236c4b11dc587cf0d3396448def3924acf474582b141b28be376d66d49",
+       "size": 18426360,
+       "url": "https://github.com/xemu-project/xemu/releases/download/v0.8.137/xemu-0.8.137-x86_64.AppImage"
+      },
+      {
+       "arch": "aarch64",
+       "format": "appimage",
+       "sha256": "3cd8b4baa0472d3a1ce3ec2c4bc78e11395802618b96707e94ee7975dfd2a5a9",
+       "size": 17164808,
+       "url": "https://github.com/xemu-project/xemu/releases/download/v0.8.137/xemu-0.8.137-aarch64.AppImage"
+      }
+     ],
+     "channel": "stable",
+     "date": "2026-10-16T19:27:01Z",
+     "version": "0.8.137"
+    }
+   ],
+   "homepage": "https://github.com/xemu-project/xemu",
+   "kind": "emulator",
+   "name": "xemu"
+  }
+ },
+ "generated_at": "2026-11-21T13:35:07Z",
+ "schema": 1
+}
